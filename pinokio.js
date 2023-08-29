@@ -9,7 +9,7 @@ module.exports = {
   description: "Minimal Stable Diffusion UI",
   icon: "icon.jpeg",
   menu: async (kernel) => {
-    let installed = await exists(path.resolve(__dirname, "Fooocus"))
+    let installed = await exists(path.resolve(__dirname, "Fooocus-MRE"))
     if (installed) {
       let session = (await kernel.loader.load(path.resolve(__dirname, "session.json"))).resolved
       return [{
