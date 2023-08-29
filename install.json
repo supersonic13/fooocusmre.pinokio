@@ -3,7 +3,7 @@
     {
       "method": "shell.run",
       "params": {
-        "message": "git clone https://github.com/lllyasviel/Fooocus"
+        "message": "git clone https://github.com/MoonRide303/Fooocus-MRE"
       }
     }, {
       "method": "shell.run",
