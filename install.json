@@ -9,13 +9,13 @@
       "method": "shell.run",
       "params": {
         "message": "{{os.platform() === 'win32' ? 'python' : 'python3'}} -m venv env",
-        "path": "Fooocus"
+        "path": "Fooocus-MRE"
       }
     },
     {
       "method": "shell.start",
       "params": {
-        "path": "Fooocus"
+        "path": "Fooocus-MRE"
       }
     },
     {
@@ -68,14 +68,14 @@
       "method": "fs.download",
       "params": {
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors",
-        "path": "Fooocus/models/checkpoints/sd_xl_base_1.0_0.9vae.safetensors"
+        "path": "Fooocus-MRE/models/checkpoints/sd_xl_base_1.0_0.9vae.safetensors"
       }
     },
     {
       "method": "fs.download",
       "params": {
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors",
-        "path": "Fooocus/models/checkpoints/sd_xl_refiner_1.0_0.9vae.safetensors"
+        "path": "Fooocus-MRE/models/checkpoints/sd_xl_refiner_1.0_0.9vae.safetensors"
       }
     },
     {
